@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	video {
+		display: inline-block;
+	}
+</style>
+<body>
+	<video id="local-video" autoplay></video>
+	<video id="remote-video" autoplay></video>
+	<script src="//127.0.0.1:3000/socket.io/socket.io.js"></script>
+	<script src="../lib/src/hellortc.js"></script>
+	<script>
+	var hello = new Hello({
+		local: document.getElementById('local-video'),
+		remote: document.getElementById('remote-video')
+	});
+	</script>
