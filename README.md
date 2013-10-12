@@ -16,5 +16,7 @@ var hello = new Hello({
   local: document.getElementById('local-video')
 });
 hello.register(1);
-hello.answer(0);
+hello.on('call', function(uid) {
+  hello.answer(uid);
+});
 ```
