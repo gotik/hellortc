@@ -1,14 +1,11 @@
 {
+  "author": "Juan Pablo Pinilla Ossa <juan@kamikazepanda.com> (http://kamikazepanda.com)",
   "name": "hellortc",
-  "version": "0.0.0",
-  "description": "",
+  "description": "WebRTC abstration",
+  "version": "0.0.1",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Juan Pablo Pinilla Ossa",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "socket.io": "~0.9.16"
+  "homepage": "https://github.com/gotik/hellortc",
+  "repository": {
+    "url": "https://github.com/gotik/hellortc"
   }
 }

@@ -16,6 +16,7 @@
 	<script src="../hellortc.min.js"></script>
 	<script>
 	var hello = new Hello({
+		socket: 'http://localhost:3000',
 		local: document.getElementById('local-video'),
 		remote: document.getElementById('remote-video')
 	});
