@@ -25,4 +25,8 @@
 	hello.on('call', function(uid) {
 		hello.answer(uid);
 	});
+
+	hello.on('disconnect', function(uid) {
+		console.log(uid, 'disconnect');
+	});
 	</script>
